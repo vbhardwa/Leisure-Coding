@@ -7,12 +7,11 @@ import java.util.List;
 public class DupSubStrWorking {
 
 	public static void main(String[] args) {
-		//System.out.println(getSubStr("abcd"));
+		System.out.println(getSubStr("abcd"));
 		System.out.println(getSubStr("sffa"));
-		System.out.println("---------------------");
-		//System.out.println(getSubStr("a"));
-		//System.out.println(getSubStr("aa"));
-		//System.out.println(getSubStr("ab"));
+		System.out.println(getSubStr("a"));
+		System.out.println(getSubStr("aa"));
+		System.out.println(getSubStr("ab"));
 		System.out.println(getSubStr("sfhsdjfklsflkjsdlfjsldfj"));
 	}
 	
@@ -30,7 +29,6 @@ public class DupSubStrWorking {
 		for (String s: substrs) {
 			System.out.println(s);
 		}
-		System.out.println("***");
 		
 		// For each substr, see which of them are unique (no dups)
 		// Store the largest unique substr
