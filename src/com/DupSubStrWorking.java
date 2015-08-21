@@ -13,6 +13,7 @@ public class DupSubStrWorking {
 		System.out.println(getSubStr("aa"));
 		System.out.println(getSubStr("ab"));
 		System.out.println(getSubStr("sfhsdjfklsflkjsdlfjsldfj"));
+		System.out.println(getSubStr("sfsfjklsdajfsdjafkljsadlasdfa"));
 	}
 	
 	public static String getSubStr (String str) {
@@ -24,10 +25,6 @@ public class DupSubStrWorking {
 			for (int j=i; j<charArr.length; j++) {
 				substrs.add(str.substring(i,j+1));
 			}
-		}
-		
-		for (String s: substrs) {
-			System.out.println(s);
 		}
 		
 		// For each substr, see which of them are unique (no dups)
